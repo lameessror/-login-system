@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- ===== fontawsome link ===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- ===== Bootstrap file ===== -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- ===== Main Style sheet ===== -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div>
+        <div class="container text-center my-5">
+        <div class="form-content m-auto w-75 p-5">
+            <h1>Smart Login System</h1>
+        <input id="name" class="form-control my-3 sign-up" placeholder="Enter your name" type="text">
+        <div id="alertName" class="alert alert-danger p-1 text-center  mx-auto my-2 d-none">Your Name Should be consisting of a statement consists of a capital letter and 2-15 small letters and...</div>
+        <input id="email" class="form-control my-3 sign-up" placeholder="Enter your email" type="email">
+        <div id="alertEmail" class="alert alert-danger p-1 text-center  mx-auto my-2 d-none">Should be consisting of 3-10 characters and end with (@"Domain name".com)...</div>
+        <input id="pass" class="form-control my-3 sign-up" placeholder="Enter your password" type="password">
+        <div id="alertPass" class="alert alert-danger p-1 text-center  mx-auto my-2 d-none">Your Password Should be consisting of 4-15 characters either letters or numbers...</div>
+        <span id="alertSignup" class="fs-6 d-none my-2"> </span>
+        <button onclick="signUp()" class=" btn btn-outline-info w-50 my-3">
+                Register
+        </button>
+            <p class="text-white">
+                Already have an account?
+                <a class="text-white" href="index.html">Login</a>
+            </p>
+    
+            </div>
+            </div>
+          </div>
+        </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>    
+</body>
+</html>
